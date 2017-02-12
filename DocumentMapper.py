@@ -1,6 +1,6 @@
 import Mapper
 import DocumentProvider
-import tailableCursor
+import TailableCursor
 import JsonModifier
 import MongoCollectionCreator
 
@@ -14,7 +14,7 @@ class DocumentMapper(object):
         self.jsonMod = JsonModifier.JsonModifier()
         self.mngCollCreator = MongoCollectionCreator.MongoCollectionCreator().create_collections()
         self.mapper = Mapper.Mapper()
-        tc = tailableCursor.TailableCursor(self).watch_collection_changes()
+        tc = TailableCursor.TailableCursor(self).watch_collection_changes()
 
     def map_document(self, document, date_time_table):
         matching_ids = []

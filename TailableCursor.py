@@ -1,6 +1,6 @@
 from pymongo import MongoClient, CursorType
 import time
-from dateGenerator import DateGenerator
+from DateGenerator import DateGenerator
 
 class TailableCursor(object):
 

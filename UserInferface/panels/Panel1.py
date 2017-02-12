@@ -1,9 +1,9 @@
 import wx
 import wx.adv
 
-from data_querying.DateConverter import DateConverter
-from data_querying.DocumentProvider import DocumentProvider
-from data_querying.TableGenerator import TableGenerator
+from DataQuerying.DateConverter import DateConverter
+from DataQuerying.DocumentProvider import DocumentProvider
+from DataQuerying.TableGenerator import TableGenerator
 
 
 class DataQueryPanel(wx.Panel):

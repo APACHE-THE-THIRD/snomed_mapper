@@ -1,7 +1,7 @@
 import wx
-from data_querying.JsonValidator import JsonValidator
+from DataQuerying.JsonValidator import JsonValidator
 from DocumentProvider import DocumentProvider
-from data_querying.TemplateLoader import TemplateLoader
+from DataQuerying.TemplateLoader import TemplateLoader
 import json
 
 
